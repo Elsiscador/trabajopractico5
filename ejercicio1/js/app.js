@@ -1,5 +1,5 @@
 let numeroMagix = Math.round(Math.random() * 50)
-let intentos = 8
+let intentos = 5
 
 console.log(numeroMagix)
 

@@ -1,0 +1,17 @@
+body {
+    background-image: url(../img/5ARz.gif);
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+  }
