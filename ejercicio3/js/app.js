@@ -16,9 +16,9 @@ const inputDeTarea = document.getElementById("inpunt-tarea");
       }
     });
 
-    
-    listados.addEventListener("click", (e) => {
-      if (e.target && e.target.matches(".quitar")) {
-        e.target.closest("li").remove();
+    //  use una delegacion de evento
+    listados.addEventListener("click", (event) => {
+      if (event.target && event.target.matches(".quitar")) {
+        event.target.closest("li").remove();
       }
     });
